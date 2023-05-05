@@ -17,14 +17,14 @@ async def upgrade(bot,update):
 	Price Rs  2051  🇮🇳/🌎 25$  per Year
 	
 	
-	Pay Using Upi I'd ```9480251952@paytm```
+	Pay Using Upi I'd ```9207590890@paytm```
 	
 	After Payment Send Screenshots Of 
         Payment To Admin"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/mrlokaman")], 
-        			[InlineKeyboardButton("PayPal 🌎",url = "https://www.paypal.me/lokamanchendekar"),
-        			InlineKeyboardButton("Paytm",url = "https://p.paytm.me/xCTH/los89jy0")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/Nived_1_0_1")], 
+        			[InlineKeyboardButton("PayPal 🌎",url = "https://p.paytm.me/xCTH/02bzrs6p"),
+        			InlineKeyboardButton("Paytm",url = "https://p.paytm.me/xCTH/02bzrs6p")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
@@ -43,12 +43,12 @@ async def upgradecm(bot,message):
 	Price Rs  2051  🇮🇳/🌎 25$  per Year
 	
 	
-	Pay Using Upi I'd ```9480251952@paytm```
+	Pay Using Upi I'd ```9207590890@paytm```
 	
 	After Payment Send Screenshots Of 
         Payment To Admin"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/mrlokaman")], 
-        			[InlineKeyboardButton("PayPal 🌎",url = "https://www.paypal.me/lokamanchendekar"),
-        			InlineKeyboardButton("Paytm",url = "https://p.paytm.me/xCTH/los89jy0")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/Nived_1_0_1")], 
+        			[InlineKeyboardButton("PayPal 🌎",url = "https://p.paytm.me/xCTH/02bzrs6p"),
+        			InlineKeyboardButton("Paytm",url = "https://p.paytm.me/xCTH/02bzrs6p")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
